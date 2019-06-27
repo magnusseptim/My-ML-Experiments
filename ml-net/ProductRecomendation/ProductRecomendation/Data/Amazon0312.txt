@@ -1,0 +1,2 @@
+# Amazon product co-purchaisng network from March 12 2003
+# Link to real data can be found in explanation above code

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\brels\\source\\repos\\My-ML-Experiments\\ml-net\\ProductRecomendation\\ProductRecomendation\\ProductRecomendation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\brels\\source\\repos\\My-ML-Experiments\\ml-net\\ProductRecomendation\\ProductRecomendation\\ProductRecomendation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brels\\source\\repos\\My-ML-Experiments\\ml-net\\ProductRecomendation\\ProductRecomendation\\ProductRecomendation.csproj",
+        "projectName": "ProductRecomendation",
+        "projectPath": "C:\\Users\\brels\\source\\repos\\My-ML-Experiments\\ml-net\\ProductRecomendation\\ProductRecomendation\\ProductRecomendation.csproj",
+        "packagesPath": "C:\\Users\\brels\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brels\\source\\repos\\My-ML-Experiments\\ml-net\\ProductRecomendation\\ProductRecomendation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.ML.Recommender": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
